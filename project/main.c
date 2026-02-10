@@ -15,23 +15,6 @@ int main()
     drv_gpio_mode_cfg(LED0_PIN,GPIO_ModeOut_PP_20mA);
     drv_gpio_write(LED0_PIN,PIN_HIGH);
     drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-        drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-
-        drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-        drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-        drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-        drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
-    drv_gpio_write(LED0_PIN,PIN_HIGH);
     while(1)
     {
         Msh_Process();
