@@ -3,6 +3,7 @@
 #include "drv_gpio.h"
 #define LED0_PIN    drv_gpio_get(B,17)
 #define SOFT_VERSION "V1.2"
+#define HARDWARE_VERSION  "V1.0"
 int main()
 {
     uint8_t len;
