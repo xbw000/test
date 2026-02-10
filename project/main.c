@@ -12,8 +12,11 @@ int main()
 
     Msh_Init(); 
     LOG_I("System Power On...");
+<<<<<<< HEAD
     drv_gpio_mode_cfg(LED0_PIN,GPIO_ModeOut_PP_20mA);
     app_init();
+=======
+>>>>>>> main
     while(1)
     {
         Msh_Process();
