@@ -12,7 +12,7 @@
 
 #ifndef _WCH_NFCA_PCD_BSP_H_
 #define _WCH_NFCA_PCD_BSP_H_
-
+#define  BSP_VERSION "V1.1"
 #include "wch_nfca_pcd_config.h"
 #include "CH58x_NFCA_LIB.h"
 
@@ -34,7 +34,7 @@ extern uint32_t g_nfca_pcd_recv_bits;
 /*******************************************************************************
  * @fn              nfca_pcd_init
  *
- * @brief           nfc-a pcd初始化
+ * @brief           nfc-a pcd初始�?
  *
  * @param           None.
  *
@@ -67,7 +67,7 @@ extern void nfca_pcd_stop(void);
 /*******************************************************************************
  * @fn              nfca_pcd_lpcd_calibration
  *
- * @brief           nfc-a pcd lpcd ADC检卡方式阈值校准
+ * @brief           nfc-a pcd lpcd ADC检卡方式阈值校�?
  *
  * @param           None.
  *
@@ -78,22 +78,22 @@ extern void nfca_pcd_lpcd_calibration(void);
 /*******************************************************************************
  * @fn              nfca_pcd_lpcd_check
  *
- * @brief           nfc-a pcd lpcd ADC检卡
+ * @brief           nfc-a pcd lpcd ADC检�?
  *
  * @param           None.
  *
- * @return          1 有卡，0无卡.
+ * @return          1 有卡�?0无卡.
  */
 extern uint8_t nfca_pcd_lpcd_check(void);
 
 /*******************************************************************************
  * @fn              nfca_adc_get_ant_signal
  *
- * @brief           nfc-a pcd lpcd ADC检卡
+ * @brief           nfc-a pcd lpcd ADC检�?
  *
  * @param           None.
  *
- * @return          uint16_t，返回天线上信号的adc检测值.
+ * @return          uint16_t，返回天线上信号的adc检测�?.
  */
 extern uint16_t nfca_adc_get_ant_signal(void);
 
@@ -104,14 +104,14 @@ extern uint16_t nfca_adc_get_ant_signal(void);
  *
  * @param           None.
  *
- * @return          nfca_pcd_controller_state_t，返回通讯结束状态.
+ * @return          nfca_pcd_controller_state_t，返回通讯结束状�?.
  */
 extern nfca_pcd_controller_state_t nfca_pcd_wait_communicate_end(void);
 
 /*******************************************************************************
  * @fn              nfca_pcd_rand
  *
- * @brief           nfc-a pcd 获取随机数接口
+ * @brief           nfc-a pcd 获取随机数接�?
  *
  * @param           None.
  *
@@ -122,7 +122,7 @@ extern uint32_t nfca_pcd_rand(void);
 /*******************************************************************************
  * @fn              nfca_pcd_ctr_init
  *
- * @brief           nfc-a pcd 天线信号控制初始化
+ * @brief           nfc-a pcd 天线信号控制初始�?
  *
  * @param           None.
  *
