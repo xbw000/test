@@ -13,8 +13,14 @@ int main()
 
     Msh_Init(); 
     LOG_I("System Power On...");
+    drv_gpio_mode_cfg(LED0_PIN,GPIO_ModeOut_PP_20mA);
+    app_init();
     while(1)
     {
         Msh_Process();
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+        Msh_Delay(500);
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+        Msh_Delay(500);
     }
 }

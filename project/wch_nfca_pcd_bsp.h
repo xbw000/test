@@ -12,7 +12,7 @@
 
 #ifndef _WCH_NFCA_PCD_BSP_H_
 #define _WCH_NFCA_PCD_BSP_H_
-
+#define  BSP_VERSION "V1.1"
 #include "wch_nfca_pcd_config.h"
 #include "CH58x_NFCA_LIB.h"
 
