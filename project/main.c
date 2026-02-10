@@ -16,6 +16,22 @@ int main()
     drv_gpio_write(LED0_PIN,PIN_HIGH);
     drv_gpio_write(LED0_PIN,PIN_HIGH);
     drv_gpio_write(LED0_PIN,PIN_HIGH);
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+        drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
+    drv_gpio_write(LED0_PIN,PIN_HIGH);
     while(1)
     {
         Msh_Process();
